@@ -48,18 +48,22 @@ $savethis: #7273ad;
                 font-size: 2rem;
                 font-weight: bold;
                 // margins with percentage
-                margin-top: 10%;
-                margin-left: 10%;
+                // margin-top: 10%;
+                // margin-left: 10%;
+                // margins with viewport
+                margin: 5vh 0 0 8vw;
             }
             .portfolio_section_squares {
                 display: flex;
                 flex-direction: column;
                 gap: 3vh;
-                margin-top: 10%;
-                margin-left: 10%;
+                margin: 5vh 0 0 8vw;
                 .portfolio_square {
                     // size with percentage
-                    width: 89%;
+                    // width: 89%;
+                    // height: 10em;
+                    // size with em
+                    width: 23em;
                     height: 10em;
                     border-radius: 10px;
                     border: none;
@@ -83,16 +87,19 @@ $savethis: #7273ad;
                 font-size: 2rem;
                 font-weight: bold;
                 // margins with percentage
-                margin-top: 5%;
-                margin-left: 5%;
+                // margin-top: 5%;
+                // margin-left: 5%;
+                // margins with viewport
+                margin: 5vh 0 0 5vw;
             }
             .portfolio_section_squares {
                 display: flex;
                 // flex-direction: column;
                 gap: 2ch;
-                margin-top: 5%;
-                margin-left: 5%;
-                // background-color: #00C6C3;
+                // margin-top: 5%;
+                // margin-left: 5%;
+                // margins with viewport
+                margin: 5vh 0 0 5vw;
                 .portfolio_square {
                     // size with percentage
                     width: 12.9em;
