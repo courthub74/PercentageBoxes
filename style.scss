@@ -1,0 +1,107 @@
+// FONTS
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&family=Julius+Sans+One&family=Roboto:wght@400&display=swap');
+
+// Colors
+
+// Dark Blue
+$darkblue: #080E2F;
+// Next Green
+$nextgreen: #00313E;
+// Portfolio backgrounds
+$portfolios: #36395D;
+// Resume Button Green
+$resumebutton: #507E81;
+// Skills Teal
+$skillsteal: #146166;
+// BOX SHADOW
+$boxshadowcircles: rgba(0, 0, 0, 0.521);
+// Job Descriptions
+$jobdescription: #00C6C3;
+$jobdescripgrey: #8081AA;
+$descriptiongrey2: #7a7bd3;
+$descriptionblue: #8091ED;
+// First Blue
+$firstblue: #58a6ff;
+$savethis: #7273ad;
+
+// WHOLE PAGE
+* {
+    margin: 0;
+    body {
+        background-color: $nextgreen;
+    }
+}
+
+// PORTRAIT
+@media screen and (orientation: portrait) {
+    #portfolio_section_id {
+        .portfolio_section_class {
+            background-color: $darkblue;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            // justify-content: center;
+            // align-items: center;
+            .section_title {
+                color: white;
+                font-family: 'Inter', sans-serif;
+                font-size: 2rem;
+                font-weight: bold;
+                // margins with percentage
+                margin-top: 10%;
+                margin-left: 10%;
+            }
+            .portfolio_section_squares {
+                display: flex;
+                flex-direction: column;
+                gap: 3vh;
+                margin-top: 10%;
+                margin-left: 10%;
+                .portfolio_square {
+                    // size with percentage
+                    width: 89%;
+                    height: 10em;
+                    border-radius: 10px;
+                    border: none;
+                    background-color: $portfolios;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (orientation: landscape) {
+    #portfolio_section_id {
+        .portfolio_section_class {
+            background-color: $darkblue;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            .section_title {
+                color: white;
+                font-family: 'Inter', sans-serif;
+                font-size: 2rem;
+                font-weight: bold;
+                // margins with percentage
+                margin-top: 5%;
+                margin-left: 5%;
+            }
+            .portfolio_section_squares {
+                display: flex;
+                // flex-direction: column;
+                gap: 2ch;
+                margin-top: 5%;
+                margin-left: 5%;
+                // background-color: #00C6C3;
+                .portfolio_square {
+                    // size with percentage
+                    width: 12.9em;
+                    height: 15em;
+                    border-radius: 10px;
+                    border: none;
+                    background-color: $portfolios;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&family=Julius+Sans+One&family=Roboto:wght@400&display=swap");
+* {
+  margin: 0;
+}
+* body {
+  background-color: #00313E;
+}
+
+@media screen and (orientation: portrait) {
+  #portfolio_section_id .portfolio_section_class {
+    background-color: #080E2F;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  #portfolio_section_id .portfolio_section_class .section_title {
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-top: 10%;
+    margin-left: 10%;
+  }
+  #portfolio_section_id .portfolio_section_class .portfolio_section_squares {
+    display: flex;
+    flex-direction: column;
+    gap: 3vh;
+    margin-top: 10%;
+    margin-left: 10%;
+  }
+  #portfolio_section_id .portfolio_section_class .portfolio_section_squares .portfolio_square {
+    width: 89%;
+    height: 10em;
+    border-radius: 10px;
+    border: none;
+    background-color: #36395D;
+  }
+}
+@media screen and (orientation: landscape) {
+  #portfolio_section_id .portfolio_section_class {
+    background-color: #080E2F;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  #portfolio_section_id .portfolio_section_class .section_title {
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-top: 5%;
+    margin-left: 5%;
+  }
+  #portfolio_section_id .portfolio_section_class .portfolio_section_squares {
+    display: flex;
+    gap: 2ch;
+    margin-top: 5%;
+    margin-left: 5%;
+  }
+  #portfolio_section_id .portfolio_section_class .portfolio_section_squares .portfolio_square {
+    width: 12.9em;
+    height: 15em;
+    border-radius: 10px;
+    border: none;
+    background-color: #36395D;
+  }
+}/*# sourceMappingURL=style.css.map */
